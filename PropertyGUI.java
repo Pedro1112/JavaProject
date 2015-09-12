@@ -1,8 +1,4 @@
-// Pedro Salazar
 
-
-// read in file and parse it at the ;, turns it into array and then you 
-// can use the info
 
 import java.awt.*;
 import javax.swing.*;
