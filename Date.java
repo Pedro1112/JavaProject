@@ -1,4 +1,4 @@
-// Pedro Salazar
+
 
 public class Date
 {
