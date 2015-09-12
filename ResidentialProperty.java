@@ -1,6 +1,4 @@
-//Pedro Salazar
 
-			// Update Constructor for FloodZone and Subdivision
 
 public class ResidentialProperty extends Property implements Exemption
 {
@@ -92,8 +90,6 @@ public class ResidentialProperty extends Property implements Exemption
 	public String calculateExemption()	
 	{
 		
-
-
 		setExemption(getMarketValue() * COUNTY/100 + getMarketValue() * CITY/100 + getMarketValue() * SCHOOL/100 + getMarketValue() * MEDICAL/100);
 
 
@@ -102,7 +98,6 @@ public class ResidentialProperty extends Property implements Exemption
 		msg += String.format("      County $%,.2f    City $%,.2f    School $%,.2f    Medical $%,.2f", ((getMarketValue()*COUNTY/100)), ((getMarketValue()*CITY/100)), ((getMarketValue()*SCHOOL/100)), ((getMarketValue()*MEDICAL/100))); 
 			 
 		return msg ;
-
 
 	}
 
