@@ -1,6 +1,4 @@
-//Pedro Salazar
 
-		// Update Constructor for PropertyTier 
 
 public abstract class Property implements TaxRates
 {
