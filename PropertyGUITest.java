@@ -1,7 +1,7 @@
-// Pedro Salazar
 
 import javax.swing.*;
 import java.awt.*;
+
 public class PropertyGUITest
 {
 
@@ -17,20 +17,6 @@ public class PropertyGUITest
 		pg.setLocationRelativeTo(null);
 
 		pg.setVisible(true);  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	}
 }
