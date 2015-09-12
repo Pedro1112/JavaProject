@@ -1,5 +1,3 @@
-// Pedro Salazar
-
 
 import java.io.*;
 import java.util.Formatter;
@@ -39,7 +37,6 @@ public class WriteFile
 
 	}
 
-
 	public static void writeProperties()
 	{
 		Formatter output;
@@ -62,8 +59,6 @@ public class WriteFile
 			
 			output.format("%s,;%s,;%d,;%s,;%d,;%s,;%d,;%s,;%s,;%s\n", "Commercial", "Merrit", 19385, "605 Green Blvd, Arlington, Texas, 76015", 275000, "10, 21, 2012", 4321, "TIER2", "Battery City", "G921G");
 			
-			
-
 
 			output.close();
 		}
@@ -72,8 +67,5 @@ public class WriteFile
 		{
 			ioe.printStackTrace();
 		}
-
 	}   
-
-
-} // end class		
+} 		
