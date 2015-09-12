@@ -1,5 +1,3 @@
-//Pedro Salazar
-		//Update Constructor to be inherited
 
 public class CommercialProperty extends Property implements TaxRates
 {
